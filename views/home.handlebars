@@ -1,1 +1,63 @@
-<h1>Hello BlockchainNewz</h1>
+<div class="jumbotron">
+    <div class="container text-center">
+        {{!--
+        <video controls loop src="Blurry Video Of People Working.mp4" frameborder="0"></video controls loop> --}}
+        <h1>BlockchainNewz</h1>
+        <p>Stay updated on the blockchain</p>
+        <button type="button" class="btn btn-info btn-lg btn-warning" data-toggle="modal" data-target="#myModal">Subscribe!</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Subscribe Today!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Stay informed on the reg with our weekly newsletter. Fill out the form below</p>
+                    </div>
+                    <form action="/subscribe" method="post">
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <button type="submit" class="btn btn-default">Subscribe</button>
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+    <h2>NewzFeed</h2>
+    <br>
+    <div class="row">
+        <div class="col-sm-3">
+            <h4>BitRefill Adds Amazon Gift Cards to its Platform</h4>
+            <img src="https://steemitimages.com/0x0/https://cdn-images-1.medium.com/max/1200/1*XzOWkovw6ouk9JaCPaGudA.png" class="img-responsive"
+                style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+            <h4>Blockchain Investment Fund Launches in China's Nanjing to Develop Public Project</h4>
+            <img src="https://crypto-info.io/wp-content/uploads/2018/06/china-blockchain-760x490-740x477.jpg" class="img-responsive"
+                style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+            <h4>G20: 'Crypto-Assets Can Deliver Significant Benefits'</h4>
+            <img src="https://classiarius.net/wp-content/uploads/2018/03/Thumb-3.png" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+            <h4>Google Cloud to Float Better With Help of Blockchain</h4>
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/google-in-chains.png" class="img-responsive" style="width:100%"
+                alt="Image">
+        </div>
+    </div>
+</div>
+<br>
