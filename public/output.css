@@ -1,0 +1,61 @@
+h2 {
+  font-family: 'Courier New', Courier, monospace; }
+
+.first-class, .second-class {
+  color: orange;
+  font-family: sans-serif;
+  text-decoration: underline; }
+
+.second-class {
+  border-color: #fff; }
+
+.border-blue {
+  border-color: aqua;
+  border-width: 2px; }
+
+.border-red {
+  border-color: red;
+  border-width: 2px; }
+
+a {
+  font-family: 'Courier New', Courier, monospace;
+  color: orange; }
+  a:hover, a:focus {
+    color: blue; }
+
+.navbar {
+  margin-bottom: 0; }
+
+footer {
+  padding: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff6600;
+  color: white;
+  text-align: center; }
+
+.jumbotron {
+  padding-bottom: 148px;
+  background: url(../img/pexels-photo-169573.jpeg) no-repeat center center fixed;
+  color: orange; }
+
+h1, .jumbotron {
+  text-decoration: bold;
+  font-family: 'Courier New', Courier, monospace; }
+
+.divCentro {
+  background-color: rgba(60, 60, 60, 0.767);
+  width: 570px;
+  height: 250px;
+  border-radius: 25px;
+  margin: auto;
+  padding-top: 10px; }
+
+.col-sm-5, .address {
+  padding-left: 60px; }
+
+.col-sm-7, .slideanim, .input {
+  padding-right: 60px; }
+
+/*# sourceMappingURL=output.css.map */
