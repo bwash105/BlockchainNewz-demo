@@ -1,5 +1,11 @@
-h2 {
+body {
+  height: 100%; }
+
+h2, h4 {
   font-family: 'Courier New', Courier, monospace; }
+
+p {
+  font-family: 'Sunflower', sans-serif; }
 
 .first-class, .second-class {
   color: orange;
@@ -24,16 +30,24 @@ a {
     color: blue; }
 
 .navbar {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border: 1px solid;
+  padding: 3px;
+  box-shadow: 5px 10px 8px 5px #141414dd; }
 
 footer {
   padding: 15px;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #ff6600;
   color: white;
-  text-align: center; }
+  text-align: center;
+  clear: both;
+  margin-top: 100px; }
+  footer #subFooter {
+    margin-top: 500px; }
 
 .jumbotron {
   padding-bottom: 148px;
@@ -57,5 +71,30 @@ h1, .jumbotron {
 
 .col-sm-7, .slideanim, .input {
   padding-right: 60px; }
+
+#envelope {
+  margin-top: 200px; }
+
+.parallax {
+  /* The image used */
+  background-image: url(../img/blockchainnewz_logo_title.jpg);
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.vr {
+  height: 100px;
+  background-color: #ff7300;
+  font-size: 36px;
+  padding: 10px;
+  text-align: center; }
+
+.img-responsive {
+  margin: auto;
+  border-radius: 25px; }
 
 /*# sourceMappingURL=output.css.map */
