@@ -69,7 +69,7 @@ h1, .jumbotron {
 
   @media screen and (max-width: 600px) {
     .divCentro {
-      background-color: olive; } 
+      background-color: rgba(66, 44, 34, 0.685); } 
     }
 
 .col-sm-5, .address {
