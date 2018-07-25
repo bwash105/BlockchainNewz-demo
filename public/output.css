@@ -60,11 +60,17 @@ h1, .jumbotron {
 
 .divCentro {
   background-color: rgba(60, 60, 60, 0.767);
-  width: 570px;
+  width: auto;
   height: 250px;
   border-radius: 25px;
   margin: auto;
-  padding-top: 10px; }
+  padding-top: 10px; 
+}
+
+  @media screen and (max-width: 600px) {
+    .divCentro {
+      background-color: olive; } 
+    }
 
 .col-sm-5, .address {
   padding-left: 60px; }
