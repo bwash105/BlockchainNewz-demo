@@ -1,6 +1,11 @@
 # BlockchainNewz-demo
 XYO Network Concept - BlockchainNewz | Top News in Blockchain
 
+Step 1: Clone Repo
+Step 2: cd into "BlockchainNewz-demo"
+Step 3: run $ nodemon
+Step 4: enjoy!
+
 Utilized the following techniques:
 
 1. Bootstrap - defined an executed a dynamic grid that reacts to any size window and mobile device.
